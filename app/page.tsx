@@ -55,6 +55,7 @@ export default function TodoApp() {
     if (filter === "completed") return todo.completed
     return true
   })
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-card to-background">
