@@ -18,7 +18,7 @@ export default function TodoApp() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-background via-card to-background flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-emerald-600 mx-auto mb-4"></div>
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
           <p className="text-muted-foreground">読み込み中...</p>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function TodoApp() {
         <Card className="w-full max-w-md border-0 shadow-2xl bg-card/80 backdrop-blur-sm">
           <CardContent className="p-8 text-center space-y-6">
             <div>
-              <h1 className="text-3xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent mb-2">
+              <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-sky-600 bg-clip-text text-transparent mb-2">
                 おしゃれなToDoアプリ
               </h1>
               <p className="text-muted-foreground">ログインしてタスクを管理しましょう</p>
